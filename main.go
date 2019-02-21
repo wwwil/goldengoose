@@ -41,7 +41,7 @@ func promMiddleware(h http.Handler) http.Handler {
 }
 
 const (
-	loopCount      = 50000000
+	loopCount      = 5000000
 	delayWorkCount = 50000000
 )
 
